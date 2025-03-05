@@ -30,3 +30,10 @@ for (int i= 0;i<p.Alumno1.Materias.Count;i++)
 foreach(var elementos in diccionario) 
     Console.WriteLine(elementos.ToString());
 
+// IMPRIMIR SOLO CLAVE
+foreach(string clave in diccionario.Keys)
+{ Console.WriteLine(clave); }
+
+//IMPRIMIR SOLO VALORES
+foreach (string valor in diccionario.Values)
+{ Console.WriteLine(valor); }
